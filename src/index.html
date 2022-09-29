@@ -17,49 +17,54 @@
         <label for="surname" class="field-forms">
           Surname:
           <input
-          autocomplete="off"
-          type="text"
-          id="surname"
-          minlength="5"
-          maxlength="16"
-          required
+            autocomplete="off"
+            type="text"
+            id="surname"
+            name="surname"
+            minlength="5"
+            maxlength="16"
+            required
           >
         </label>
 
         <label for="name" class="field-forms">
           Name:
           <input
-          autocomplete="off"
-          type="text"
-          id="name"
+            autocomplete="off"
+            type="text"
+            id="name"
+            name="'name"
           >
         </label>
 
         <label for="age" class="field-forms">
           How old are You?
           <input
-          type="number"
-          id="age"
-          min="0"
-          max="100"
-          value="12"
+            type="number"
+            id="age"
+            name="age"
+            min="0"
+            max="100"
+            value="12"
           >
         </label>
 
         <label for="birthdate" class="field-forms">
           Full date of birth:
           <input
-          type="date"
-          id="birthdate"
+            type="date"
+            id="birthDate"
+            name="birthDate"
           >
         </label>
 
         <label for="agreement" class="field-forms">
           I accept the term of the agreement
           <input
-          type="checkbox"
-          id="agreement"
-          required
+            type="checkbox"
+            id="agreement"
+            name="agreement"
+            required
           >
         </label>
       </fieldset>
@@ -69,17 +74,19 @@
         <label for="email" class="field-forms">
           E-mail:
           <input
-          type="email"
-          id="email"
-          placeholder="email@example.com"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@example.com"
           >
         </label>
 
         <label for="password">
           Password:
           <input
-          type="password"
-          id="password"
+            type="password"
+            id="password"
+            name="password"
           >
         </label>
 
@@ -90,16 +97,16 @@
         <label class="field-forms">
           Do you love cats?
           <input
-          type="radio"
-          name="cat-quiz"
-          value="yes"
+            type="radio"
+            name="catQuiz"
+            value="yes"
           >
           Yes
 
           <input
-          type="radio"
-          name="cat-quiz"
-          value="no"
+            type="radio"
+            name="catQuiz"
+            value="no"
           >
           No
         </label>
@@ -107,16 +114,18 @@
         <label for="fav-color" class="field-forms">
           What is yout favorite color?
           <input
-          type="color"
-          id="fav-color"
+            type="color"
+            id="favColor"
+            name="favColor"
           >
         </label>
 
         <label for="sleep-time" class="field-forms">
           What time do you go to bed?
           <input
-          type="time"
-          id="sleep-time"
+            type="time"
+            id="sleepTime"
+            name="sleepTime"
           >
         </label>
 
@@ -132,10 +141,11 @@
         <label for="work-rate" class="field-forms">
           How would you rate our work?
           <input
-          type="range"
-          id="work-rate"
-          min="1"
-          max="12"
+            type="range"
+            id="workRate"
+            name="workRate"
+            min="1"
+            max="12"
           >
         </label>
       </fieldset>
@@ -144,10 +154,7 @@
         <legend>Additional info:</legend>
         <label class="field-forms">
           Comments:
-          <textarea
-          name="comments"
-          >
-          </textarea>
+          <textarea name="comments"></textarea>
         </label>
 
         <label class="field-forms">
